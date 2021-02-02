@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-02-02T08:15:40+01:00
+
+====== task 3 ======
+Created Tuesday 02 February 2021
+
+Task 3 is described as follows (in norwegain)
+Oppgave #3
+
+Type: Fullstack
+
+Teknologi: Valgfritt
+
+Oppgave: Lag en nettside der du bruker Steam for å logge inn. Presenter brukernavn og avatar fra Steam etter at du har logget inn.
+
+https://steamcommunity.com/dev/
+
+===== Notes =====
+
+Making a website from scratch is something I don't have much experience with, however I do have some.
+What experience I do have with making a website from scratch, is with Python Flask.
+Preliminary research on the task suggest I need to apply for a Steam web API key, and to apply for one, I would need a domain name.
+That's quite the barrier. Especially since I would want to test from my local PC, rather than setting up on some free hosting site somewhere with a free domain name.
+
+I do not know how strict this domain name request is, or what it functions is in regerstering it with steam, but filling in "google.com" did yield a key.
+I attempt either that or some free domain name if the alternative idea below don't work out.
+
+That alternative idea? Well, the same page that mentions the API, also have a section on the "Steam OpenID Provider".
+This provider will yield the user id, and I should be able to fish out the username and avatar from that alone, presuming that information is publically avavible without the above APIs.
+
+Since I have decided to use python, I need a "OpenID library" for Python. Luckly, there is one. The repo comes however with a warning of lacking documentation and maintenace.
+We'll see how this goes.
