@@ -21,6 +21,11 @@
         <?php
             if(isset($id))
             {
+                echo "<h2>" . $steamprofile['personaname'] . "</h2>";
+                echo "<h3>" . $steamprofile['steamid'] . "</h3>";
+                echo "<img scr='" . $steamprofile['avatar'] . "'>";
+                echo "<img scr='" . $steamprofile['avatarmedium'] . "'>";
+                echo "<img scr='" . $steamprofile['avatarfull'] . "'>";
                 #todo: display name and avatar
                 #insert the logout button
                 echo logoutbutton();
