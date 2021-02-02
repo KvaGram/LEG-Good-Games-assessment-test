@@ -72,6 +72,11 @@ domain name is now autisticduck.000webhostapp.com
 -
 Trivia: today I learned php don't concat string with + operators like most languages I know, but instead a . operator.
 Facenating.
-
+-
+Some struggles were had with loading the image. I count that for my lack of experience.
+The task has been completed.
+Albeit by using an existing library that took care of much of the backend work that might have been intended as part of the task.
+This is the library I ended up using. https://github.com/SmItH197/SteamAuthentication
+As it is under the MIT licence, I figure this should be acceptable to use, as it were not specified otherwise.
 
 

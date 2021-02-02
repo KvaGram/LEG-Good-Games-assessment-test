@@ -21,19 +21,19 @@
         <?php
             if(isset($id))
             {
+                $avatarPic = base64_encode(file_get_contents($steamprofile['avatarfull']));
+
                 echo "<h2>" . $steamprofile['personaname'] . "</h2>";
-                echo "<h3>" . $steamprofile['steamid'] . "</h3>";
-                echo "<img scr='" . $steamprofile['avatar'] . "'>";
-                echo "<img scr='" . $steamprofile['avatarmedium'] . "'>";
-                echo "<img scr='" . $steamprofile['avatarfull'] . "'>";
+                echo "<p>Steam ID: " . $steamprofile['steamid'] . "</p>";
+                echo "<img src='data:image/jpeg;base64,".$avatarPic."'>";                
                 #todo: display name and avatar
-                #insert the logout button
+                #This inserts the logout button
                 echo logoutbutton();
             }
             else
             {
                 echo "<p> You are currently not logged in. Press the button below to log in.</p>";
-                #insert the logout button
+                #This inserts the logout button
                 echo loginbutton("rectangle");
             }
         ?> 
