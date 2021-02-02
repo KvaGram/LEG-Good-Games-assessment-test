@@ -31,3 +31,10 @@ This provider will yield the user id, and I should be able to fish out the usern
 
 Since I have decided to use python, I need a "OpenID library" for Python. Luckly, there is one. The repo comes however with a warning of lacking documentation and maintenace.
 We'll see how this goes.
+
+-
+
+Before I could even begin writing code for the task, I needed to make sure I were able to get a hello world program working.
+I did. It's been a while since I used Flask, but it's getting back to me.
+
+-
