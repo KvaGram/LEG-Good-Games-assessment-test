@@ -38,3 +38,10 @@ Before I could even begin writing code for the task, I needed to make sure I wer
 I did. It's been a while since I used Flask, but it's getting back to me.
 
 -
+In case I need it, I found a place that hosts python flask servers.
+http://kvagram.pythonanywhere.com/
+-
+
+I have tried to understand both the "OpenID" libraries avavible for Python, but I can't make heads or tails out of the documentation.
+
+I may get back to this later, but for now, I have no idea how to do this.

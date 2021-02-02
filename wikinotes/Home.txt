@@ -12,3 +12,6 @@ This wiki exists for keeping notes and explaining my thought process of solving 
 
 
 First task I wish to attempt, is [[task 3]].
+
+-
+3 hours after starting test, task 3 has been put aside, more on that in [[task 3]].
