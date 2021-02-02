@@ -70,3 +70,5 @@ I'm pretty sure I can't use the python host I sat up earlier with PHP, so I need
 Found a free host, and it has ftp support for ease of updating the files.
 domain name is now autisticduck.000webhostapp.com
 
+
+
