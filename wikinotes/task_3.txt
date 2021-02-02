@@ -45,3 +45,28 @@ http://kvagram.pythonanywhere.com/
 I have tried to understand both the "OpenID" libraries avavible for Python, but I can't make heads or tails out of the documentation.
 
 I may get back to this later, but for now, I have no idea how to do this.
+
+- 
+My stuggle with this, seems to be that I have chosen a non-standard combination of tools.
+Flask is a nice tool to make standalone websites, but the openID libraries for Python seem to not have been developed with a beginner in mind.
+I may find better documentation and or tutorials for another platform.
+
+I have decided to attept to learn some php, and reattempt task 3 using php.
+-
+Having found a tutorial for Steam's openID on PHP,  I'm following that.
+
+Needing an API key, I registered for one using my IP address as domain name (apperently that worked)
+
+-
+After a bit more research, I finally understand why I need to to register a domain name, and what the key is meant to be used for.
+When you click the login button, you are sendt to Steam's server.
+Steam then needs to know where to redirect the client back after login.
+So with this, it is impossible for me to do any kind of testing for this on localhost. I need a server with a valid static ip or domainname.
+Since I don't have access to the router here at home, I can't port forward to set up a server from home, nor do I know if my IP is static.
+This means, I need to find a free hosting service.
+
+I'm pretty sure I can't use the python host I sat up earlier with PHP, so I need a more basic free server host.
+-
+Found a free host, and it has ftp support for ease of updating the files.
+domain name is now autisticduck.000webhostapp.com
+
