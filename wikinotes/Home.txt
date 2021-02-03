@@ -21,3 +21,5 @@ Task 3 is completed.
 -
 Next task I will attempt is [[task 2]] .
 -
+Task 2 failed. I may need assistance in fuguring out what went wrong.
+that just leaves task 1 to attempt.

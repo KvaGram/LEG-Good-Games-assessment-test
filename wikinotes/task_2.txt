@@ -81,3 +81,11 @@ I also learned that the echo statement don't implicetly convert non-strings to s
 -
 succesfully applied a filter to reject entries including the character a.
 
+-
+Adding the rest of the filters seems to be a bit difficult.
+I must be doing something wrong, but the lack of documentation makes it difficult to see what I am supposed to do.
+I am getting errors fetching data from Steam now. First "too many requests" errors, and now I get "forbidden" errors.
+I suspect I triggered a failsafe, and I am not supposed to do things this way. Worse, maybe my many requests caused harm Steam?
+Untill I understand how to properly search and fetch the game-data, I can't get the sample-data I need to write the filters.
+I'll leave this task alone for now.
+
