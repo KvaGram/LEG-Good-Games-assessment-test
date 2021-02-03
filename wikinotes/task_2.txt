@@ -1,0 +1,70 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-02-03T09:35:33+01:00
+
+====== task 2 ======
+Created Wednesday 03 February 2021
+
+Task 2 is decribed as following, in norwegian
+
+Oppgave #2
+
+Type: Backend / scraping
+
+Teknologi: PHP er foretrukket, men ikke et krav
+
+Oppgave: Hent ut et utvalg av spill fra Steams søkeside og lagre ned informasjonen som strukturerte data. Du velger selv hvordan du vil lagre det ned så lenge du kan presentere det som JSON. 
+
+https://store.steampowered.com/search/
+
+Krav til utvalget er: 
+
+	Er et spill
+
+	Støtte for norsk språk
+
+	Koster maks 90 kroner
+
+	Er merket som familievennlig
+
+	Har positive brukeranmeldelser
+
+	Har ikke bokstaven “a” i tittel
+
+
+Hent ut disse detaljene:
+
+	Tittel
+
+	Bilde-url
+
+	Pris
+
+	Lanseringsdato
+
+- 
+Sounds simple enough. So the question is how.
+Time for research and planning.
+
+I am given the search url, but that one is used for front-end user search.
+Unless I'm expected to pick games manually, and copy-paste into a html-table, I think that may be a red herring.
+Digging a bit deeper, I learned that there is a web search apis for things like getting list of games from steam, and it's in json format.
+I just need to figure out the correct request.
+If I can figure out how to make this search, and how to apply filters in the search query, then that alone is a good chunk of the task.
+I will probobly not be able to do all the filters in the query, so I may need to filter the rest in the backend code.
+
+The correct api to search with is "ISteamApps"
+https://partner.steamgames.com/doc/webapi/ISteamApps
+example web request
+"GET https://api.steampowered.com/ISteamApps/GetAppList/v2/"
+
+Trying the link gets me a list so huge, that firefox stuggles to load it with the built-in JSON reader
+That gives me an idea. The manual seach includes the search parameters int he full rul (becouse, duh).
+If the exact same filters can be applied in the api, that willl save me on doing my own filters.
+-
+test failed. Pasting the search query from the seach site into the api url did not filter the results. uh well. Worth a try.
+Maybe I will figure it out later.
+
+Time start coding. Since I have already started to learn php working on [[task 3]], I will attempt php for this task as well.
+
+

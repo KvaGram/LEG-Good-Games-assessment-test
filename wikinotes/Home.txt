@@ -16,3 +16,8 @@ First task I wish to attempt, is [[task 3]].
 -
 After some hours struggling task 3, I had to start over with a new approach.
 See detailed notes in [[task 3]]
+-
+Task 3 is completed.
+-
+Next task I will attempt is [[task 2]] .
+-
