@@ -66,5 +66,10 @@ test failed. Pasting the search query from the seach site into the api url did n
 Maybe I will figure it out later.
 
 Time start coding. Since I have already started to learn php working on [[task 3]], I will attempt php for this task as well.
+-
+Problem. Reading the raw json I get from  GetAppList, I only get the names and appid.
+This task may not be as simple as I imagined. Then again, the list I get weights 6 megabytes.
+If that is just name and id, I honestly fear how much every detail I need would weigh.
 
+However, I can use this first list to apply the first filter, if I can figure out how to read the data and apply filters.
 
