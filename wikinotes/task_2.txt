@@ -73,3 +73,11 @@ If that is just name and id, I honestly fear how much every detail I need would 
 
 However, I can use this first list to apply the first filter, if I can figure out how to read the data and apply filters.
 
+-
+I have struggled a bit with how php stores the result from a decode_JSON call, and how to read from it.
+The documentation is a bit unclear. This suggests the structure is something so basic in php's system, that you are expected to implicetly know it.
+It could be simular to a javascript object. Though some example codes show what looks like a hashmap or dictionary implementation.
+I also learned that the echo statement don't implicetly convert non-strings to string. It seems var_dump is tool for that job.
+-
+succesfully applied a filter to reject entries including the character a.
+
